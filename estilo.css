@@ -5,9 +5,8 @@ body{
 /*Classes*/
 
 .banner{
-    background-color: black;
-    border: 2px white solid;
-    color: white;
+    background-color: rgb(248, 220, 255);
     text-align: center;
-    border-radius: 50%;
+    height: 200px;
+    width: 100%;
 }
