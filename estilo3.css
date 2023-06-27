@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed&family=Lato:wght@700&display=swap');/*fontes*/
+/*Cores*/
+:root{
+    --verde-escuro: rgba(30,56,51,255);
+    --verde-claro: rgba(0,117,74,255);
+    --marrom: #8B5A2B;
+}
+/*geral*/
+body{
+    font-family: 'Cabin Condensed', sans-serif;
+    border: 8px var(--marrom) solid;
+    color: white;
+}
+form{
+    background-color: var(--verde-escuro);
+}
+h1{
+    background-color: var(--verde-escuro);
+    margin: 0;
+}
+h2{
+    background-color: var(--verde-escuro);
+    margin: 0;
+}
+input{
+    width: 400px;
+}
+label{
+    font-size: 30px;
+}
+#botao-voltar{
+    font-size: 50px;
+    color: var(--verde-escuro);
+    text-decoration: none;
+    margin: 10px 10px 10px 700px;
+    background-color: white;
+    border-radius: 10px;
+}

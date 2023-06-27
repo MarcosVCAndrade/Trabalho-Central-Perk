@@ -5,26 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario</title>
+    <link rel="stylesheet" href="estilo3.css" />
 </head>
 <body>
-    <h1>Deseja abrir uma filia?</h1>
+    <h1>Deseja abrir uma filial?</h1>
     <h2>preencha o formulario abaixo</h2>
     <form action="#">
 
         <label for="nome" >Nome:</label>
-        <input type="text" placeholder="João de Deus"><br><br>
+        <input type="text" placeholder="João de Deus" required><br><br>
 
         <label for="email">E-mail:</label>
-        <input type="email" placeholder="joaodedeus@gmail.com"><br><br>
+        <input type="email" placeholder="joaodedeus@gmail.com" required><br><br>
 
         <label for="telefone">Celular</label>
-        <input type="tel" placeholder="(99) 99999 9999"><br><br>
+        <input type="tel" placeholder="(99) 99999 9999" required><br><br>
 
         <label for="Cidade:">Cidade</label>
-        <input type="text" placeholder="Cascavel"><br><br>
+        <input type="text" placeholder="Cascavel" required><br><br>
 
         <label for="estado"> Estado:</label>
-        <select id="UF" name="UF">
+        <select id="UF" name="UF" required>
     <option value="">Selecione</option>
     <option value="AC">Acre</option>
     <option value="AL">Alagoas</option>
@@ -56,15 +57,13 @@
 </select><br><br>
 
 <label for="cpf">CPF:</label>
-<input type="tel" placeholder="999.999.999-99"><br><br>
-
-<label for="CNPJ">CNPJ:</label>
-<input type="tel" placeholder="99.999.999/9999-99"><br><br>
+<input type="tel" placeholder="999.999.999-99" required><br><br>
 
 <label for="CEP">CEP:</label>
-<input type="tel" placeholder="99999-999"><br><br>
+<input type="tel" placeholder="99999-999" required><br><br>
 
 <button type="submit">Enviar</button>
+<a id="botao-voltar" href="index.html">Voltar</a>
 </form>
 </body>
 </html>

@@ -2,60 +2,95 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
     <title>Central Perk</title>
+    <link rel="stylesheet" href="estilo.css" />
 </head>
 <body>
-    <div class="banner">
-        <h1>Central Perk</h1>
-        <img src="/beckup/logo.png" alt="logo central perk">
+    <div id="banner"><!--banner da cafeteria-->
+            <img id="logo-img" src="../trabalho_cafeteria/imagens/central-perk.png" alt="Logo Central Perk">
     </div>
-    <div class="produtos">
-        <img src="/beckup/bolo-fuba.jpg" alt="bolo">
-</div>
-    <div class="produtos">
-        <img src="/beckup/cafe.jpg" alt="cafe">
+
+    <div class="destaque"><!--produtos em destaque-->
+        <h2>Welcome to the homepage of the Central Perk website!!
+        </h2>
     </div>
-    <div class="produtos">
-        <img src="/beckup/capuccino.jpg" alt="capuccino">
+
+    <div id="produtos"><!--área para produtos-->
+        <ul class="ul-none"><!--imagens, preços, links de cada produto-->
+            <h2 id="titulo-produtos">PRINCIPAIS PRODUTOS:</h2>
+            <li class="produto">
+                <img class="imagens" src="../trabalho_cafeteria/imagens/bolo-fuba.jpg" alt="bolo-fuba" >
+    
+                <img class="imagens" src="../trabalho_cafeteria/imagens/cafe.jpg" alt="cafe">
+            </li>
+            <li class="produto">
+                <img class="imagens" src="../trabalho_cafeteria/imagens/capuccino.jpg" alt="capuccino">
+            
+                <img class="imagens" src="../trabalho_cafeteria/imagens/cha.jpg" alt="cha">
+            </li>
+            <li class="produto">
+                <img class="imagens" src="../trabalho_cafeteria/imagens/cookie.jpg" alt="cookie">
+           
+                <img class="imagens" src="../trabalho_cafeteria/imagens/croissant.jpg" alt="croissant">
+            </li>
+            <li class="produto"> 
+                <img class="imagens" src="../trabalho_cafeteria/imagens/pao-de-queijo.jpg" alt="pao-de-queijo">
+            
+                <img class="imagens" src="../trabalho_cafeteria/imagens/pao-frances.jpg" alt="pao-frances">
+            </li>
+        </ul>
     </div>
-    <div class="produtos">
-        <img src="/beckup/cha.jpg" alt="cha">
-    </div>
-    <div class="produtos">
-        <img src="/beckup/cokie.jpg" alt="cookie">
-    </div>
-    <div class="produtos">
-        <img src="/beckup/croissant.jpg" alt="croissant">
-    </div>
-    <div class="produtos">
-        <img src="/beckup/pao-de-queijo.jpg" alt="pao de queijo">
-    </div>
-    <div class="produtos">
-        <img src="/beckup/pao-frances.jpg" alt="pao frances">
-    </div>
-    <div class="avaliações">
-        <div id="joe">
-            <img src="/beckup/joe.png" alt="Joe">
-            <p>
+    <h2 class="destaque">Opiniões de clientes fieis:</h2>
+    <ul id="avaliacoes">
+        <li class="pessoas" >
+            <img id="joe" width="280px" src="../trabalho_cafeteria/imagens/joe.png" alt="Joe">
+            <p class="comentarios">
                 Ambiente bom, muitas mulheres lindíssimas, comida quente e o chá chega a deixar as pernas bambas.</p>
-        </div>
-        <div id="monica">
-            <img src="/beckup/monica.png" alt="Monica">
-            <p>Excelente para curtir com os amigos, o croissant e o capuccino combinam perfeitamente.</p>
-        </div>
-        <div id="rachel">
-            <img src="/beckup/rachel.png" alt="Rachel">
-            <p>Ambiente muito bom, atendimento rápido e produtos bons, bom para ir com os amigos e relaxar. Recomendo o croissant.</p>
-        </div>
-    </div>
+        </li>
+        <li class="pessoas" >
+            <img id="monica" width="350px" src="../trabalho_cafeteria/imagens/monica.png" alt="Monica">
+            <p class="comentarios">Excelente para curtir com os amigos, o croissant e o capuccino combinam perfeitamente.</p>
+        </li>
+        <li class="pessoas" >
+            <img id="rachel" width="490px" src="../trabalho_cafeteria/imagens/rachel.png" alt="Rachel">
+            <p class="comentarios">Ambiente muito bom, atendimento rápido e produtos bons, bom para ir com os amigos e relaxar. Recomendo o croissant.</p>
+        </li>
+    </ul>
+    <h2 class="destaque">Venha nos visitar:</h2>
+    <ul class="ul-none">
+        <h2 id="titulo-produtos">ENDEREÇO CENTRAL PERK</h2>
+        <li>
+            <img src="../trabalho_cafeteria/imagens/central-perk-fisico.jpg" alt="Central-Perk">
+        </li>
+        <li>
+            <img src="../trabalho_cafeteria/imagens/local1.png" alt="endereço">
+        </li>
+        <li>
+            <img src="../trabalho_cafeteria/imagens/local2.png" alt="endereço">
+        </li>
+        <li>
+            <img src="../trabalho_cafeteria/imagens/local3.png" alt="endereço">
+        </li>
+    </ul>
+    <h2 class="destaque">Deseja abrir uma filial conosco? Preencha o fomulário a seguir:  <a class="formulario" href="formulario.html">ABRIR FILIAL</a></h2>
+   
     <footer>
-        <p>Site feito pelo grupo De Rocha.</p>
-        <img src="/beckup/a39c0519-c034-4bd3-90a9-a524f0f3775b.jfif" alt="logo de rocha">
-        <img src="/beckup/instagran.png" alt="logo instagram">
-        <img src="/beckup/facebook.png" alt="logo facebook">
+        
+        <h2 class="texto-footer">
+            Site feito pelo grupo De Rocha. Contatos Central-Perk:
+        </h2>
+        <a href="#">
+            <img id="de-rocha" src="../trabalho_cafeteria/imagens/logo_de_rocha.jfif" alt="logo de rocha">
+        </a>
+        <a href="#">
+            <img class="logos" src="../trabalho_cafeteria/imagens/instagran.png" alt="logo instagram">
+        </a>
+        <a href="#">
+            <img class="logos" src="../trabalho_cafeteria/imagens/facebook.png" alt="logo facebook">
+        </a>
+        <h2 id="texto-footer-historia">Quer saber mais sobre a nossa história? <a class="botao-historia" href="historia.html">Clique aqui</a></h2>
     </footer>
+    
 </body>
 </html>
